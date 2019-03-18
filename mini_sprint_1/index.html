@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src = 'app.js'></script>
+</head>
+<body>
+  
+  <h1 style = 'text-align: center'>Tic-Tac-Toe</h1>
+  <button id = 'reset' style = 'display: block; margin: 0 auto' value='Press this to reset'>Press this to reset</button>
+  <div style= 'height: 10px' ></div>  
+  <table id = 'table_mama' style="width:33%; margin: 0 auto">
+    <tr>
+      <th class= 'table' id = 't1' style='border-right: 1px solid;border-bottom: 1px solid' width = '33%' height = '100' value = 'not pressed' ></th>
+      <th class= 'table' id = 't2' style='border-right: 1px solid;border-bottom: 1px solid' width = '33%' height = '100' value = 'not pressed'></th>
+      <th class= 'table' id = 't3' style='border-bottom: 1px solid' width = '33%' height = '100' value = 'not pressed'></th>
+    </tr>
+    <tr>
+      <th class= 'table' id = 't4' style='border-right: 1px solid;border-bottom: 1px solid' width = '33%' height = '100' value = 'not pressed'></th>
+      <th class= 'table' id = 't5' style='border-right: 1px solid;border-bottom: 1px solid' width = '33%' height = '100' value = 'not pressed'></th>
+      <th class= 'table' id = 't6' style='border-bottom: 1px solid' width = '33%' height = '100' value = 'not pressed'></th>
+    </tr>
+    <tr>
+      <th class= 'table' id = 't7' style='border-right: 1px solid;' width = '33%' height = '100' value = 'not pressed'></th>
+      <th class= 'table' id = 't8' style='border-right: 1px solid;' width = '33%' height = '100' value = 'not pressed'></th>
+      <th class= 'table' id = 't9' width = '33%' height = '100' value = 'not pressed'></th>
+    </tr>
+  </table>
+  <div>
+      <h1 style= 'text-align: center'>Win Tally</h1>
+      <div>
+        <div id = 'playerX' style = 'text-align: center'><span style = 'margin-left: 15px' id = 'x_winning'>0</span></div>
+        <div id = 'playerY' style = 'text-align: center'><span style = 'margin-left: 15px' id = 'O_winning' >0</span></div>
+      </div>
+    </div>
+</body>
+</html>
